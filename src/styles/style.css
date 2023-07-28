@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Yaldevi:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(236, 233, 253, 1);
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central {
+    /* background-color: red; */
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 31.990625rem;
+    height: auto;
+    margin-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.left h5 {
+    color: var(--text-dark-accent, #7158EF);
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+
+.left h3 {
+    color: var(--text-dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 3rem;
+}
+
+.left p {
+    width: 484px;
+    height: 68px;
+    flex-shrink: 0;
+
+    color: var(--text-dark-gray, rgba(10, 0, 57, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.left a {
+    color: var(--text-dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 0.1rem;
+}
+
+.right {
+    width: 31.90625rem;
+    height: auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3.125rem;
+}
+
+.item h1 {
+    color: var(--text-dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5rem;
+    letter-spacing: -0.125rem;
+    padding-right: 4.125rem;
+}
+
+.item h4 {
+    color: var(--text-dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.itemUm {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.itemDois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemTres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 950px) {
+    .central {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 9.375rem;
+    }
+
+    .left {
+        margin: 0;
+    }
+}
